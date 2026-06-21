@@ -99,17 +99,17 @@ body{
     
 }
 
-#answer-selection.correct{
-    background-color: #fff0f0f0;
-    border-color: #ffbdbd;
-    color: darkseagreen;
+.answer-selection.correct{
+    background-color: #e6fff0;
+  border-color: #a3f0c4;
+  color: #28a745;
 
     
 }
-#answer-selection.incorrect{
-    background-color: #fff0f0f0;
-    border-color: #ffbdbd;
-    color: darkred;
+.answer-selection.incorrect{
+    background-color: #fff0f0;
+  border-color: #ffbdbd;
+  color: #dc3545;
     
 }
 
