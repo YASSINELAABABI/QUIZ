@@ -6,48 +6,45 @@
 </head>
 <body>
 
-    <div id="container">
+    <div id="container" >
 
         <div id="start-screen" class="screen active">
-        <h1>Quiz Time!</h1>
-        <p>Test your knowledge with these fun quiz</p>
-        <button id="start-btn">Start Quiz</button>                
+            <h1>Quiz Time!</h1>
+            <p>Test your knowledge with these fun quiz</p>
+            <button id="start-btn">Start Quiz</button>                
         </div>
 
-        <div id="quiz-screen" >
+        <div id="quiz-screen" class="screen  " >
             <div id="quiz-header">
                 <h2 id="question-text">Question goes here</h2>
-                <p id="question-info" >Question <span id="current-Question"></span> of <span class="number-of-questions"></span></p>
+                <div id="question-info">
+                    <p  >Question <span id="current-question">1</span> of <span id="number-of-questions"></span> </p>
+                    <p>Score: <span id="score"></span></p>
+                </div>
+                
             </div>
+
             <div id="answer-container" class="answer-container">
-                <div id="aswer-selection"></div>
+                           
+            </div>
+
+            <div id="progress-bar">
                 <div id="progress" class="pr"></div>
             </div>
             
-            
         </div>
 
-        <div id="result-sreen" class="screen">
+        <div id="result-screen" class="screen ">
             <h1>Quiz result</h1>
             <div id="result-container">
-                <p id="result">You scored <span id="score"></span> out of <span class="number-of-questions"></span> </p>
-                <div id="result-message"></div>
-            </div> ,:
+                <p id="result">You scored <span id="final-score"></span> out of <span id="max-score"></span> </p>
+                <div id="result-message">goood job</div>
+            </div>
             <button id="restart-btn">Restart Quiz</button>
         </div>
 
-
-
-
-
-
-
-        
     </div>
-
-
-
-
     <script src="script.js"></script>
 </body>
 </html>
+
